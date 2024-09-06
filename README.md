@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# CryptoLoan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This application is a decentralized solution that allows users to deposit JAY Coin as collateral and borrow Ethereum (ETH) from the blockchain. By utilizing smart contract technology, the platform ensures security, transparency, and efficiency in lending and borrowing.
 
-Currently, two official plugins are available:
+When users deposit JAY Coins, these assets are locked in a smart contract until the Ethereum loan is repaid. This allows users to retain their JAY Coin holdings while unlocking liquidity in ETH, which can be used for trading, staking, or other blockchain-related activities. With low fees, customizable loan durations, and a user-friendly interface, the platform simplifies the entire process of obtaining Ethereum through collateralized loans.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+Deposit JAY Coin: Easily deposit JAY Coin as collateral to borrow Ethereum.
 
-## Expanding the ESLint configuration
+Borrow Ethereum: Choose your preferred loan duration (from 1 to 365 days) and borrow Ethereum based on your JAY Coin deposit.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Manage Loans: Manage your positions directly from the platform. You can repay the ETH loan, adjust the loan duration, remove collateral, or fully close the position at any time.
 
-- Configure the top-level `parserOptions` property like this:
+Smart Contract Powered: Secure and transparent borrowing and lending system built on blockchain technology.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Real-Time Transactions: Get instant updates and notifications on your transaction statuses.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
