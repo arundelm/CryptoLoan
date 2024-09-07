@@ -16,4 +16,8 @@ Smart Contract Powered: Secure and transparent borrowing and lending system buil
 
 Real-Time Transactions: Get instant updates and notifications on your transaction statuses.
 
+### Deployed
+Due to issues with the smart contract, Github pages would not allow the deployment of this site, although I was able to deploy it locally. Below is linked to a video which captures the functionality of the site.
+https://www.youtube.com/watch?v=swkYxF0sJWw
+
 
